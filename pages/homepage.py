@@ -11,6 +11,12 @@ class Homepage:
     
     def load(self):
         self.page.goto(self.url)
+    
+    def christmas_products(self):
+        return self.page.get_by_role("link", name="COOK SMARTER")
+    
+    def scroll_to_awoof(self):
+        self.page.mouse.wheel(0,1500)
         
     def click_december_sales(self):
         self.page.get_by_role("link", name="COOK SMARTER").click()
