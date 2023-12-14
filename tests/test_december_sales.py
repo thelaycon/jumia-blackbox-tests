@@ -22,6 +22,7 @@ def homepage(page: Page):
 @when("the december offer is clicked")
 def december_offer_clicked(page: Page):
     home = Homepage(page)
+    expect(home.christmas_products()).to_be_visible()
     home.click_december_sales()
 
 
