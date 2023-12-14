@@ -4,7 +4,6 @@ from pytest_bdd import parsers, scenario, when, given, then
 from pages.homepage import Homepage
 
 
-
 @scenario("features/december_sales.feature", "User gets december offer")
 def test_december_deal():
     pass
