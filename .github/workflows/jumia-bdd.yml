@@ -30,4 +30,4 @@ jobs:
         playwright install
     - name: Test with pytest
       run: |
-        python -m pytest --html=report.html -n 2
+        python -m pytest --html=report.html
