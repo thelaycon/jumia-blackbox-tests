@@ -1,18 +1,23 @@
 # Jumia Holiday Sales Testing
 
-This Github project is a blackbox test of the Jumia e-commerce website and a load testing analysis for the December festive period. The blackbox testing is a prototype of how to identify any potential issues in the functionality of the Jumia e-commerce website, ensuring a smooth user experience for customers. 
+This GitHub project is a black box test of the Jumia e-commerce website and a load-testing analysis for the December festive period. The black box testing is a prototype of identifying any potential issues in the functionality of the Jumia e-commerce website, ensuring a smooth user experience for customers. 
 
-Additionally, the load testing analysis will help determine if the website can handle increased traffic during the busy December festive period, ensuring it remains responsive and accessible to all users. 
+The load testing analysis will also help determine if the website can handle increased traffic during the busy December festive period, ensuring it remains responsive and accessible to all users. 
 
 
-![Jumia](https://logos-world.net/wp-content/uploads/2022/12/Jumia-Logo.png) ![Playwright](https://miro.medium.com/v2/resize:fit:953/0*w_ivMwMdr2YvH8bB.png) ![k6](https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_9fcecb565c7303e367747d46e315effe/k6.png)
+<p float="center">
+  <img src="https://logos-world.net/wp-content/uploads/2022/12/Jumia-Logo.png" width="100" height="50">
+  <img src="https://miro.medium.com/v2/resize:fit:953/0*w_ivMwMdr2YvH8bB.png" width="100" height="50">
+  <img src="https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_9fcecb565c7303e367747d46e315effe/k6.png" width="100" height="50"> 
+</p>
+
 
 ## Running Tests
 
 To run tests, run the following command
 
 ```bash
-  pip install -r requiremennts
+  pip install -r requirements.txt
   python -m pytest --html=report.html
 ```
 
