@@ -4,13 +4,6 @@ from pytest_bdd import parsers, scenario, when, given, then
 from pages.category import Category
 
 
-CONVERTERS = {
-    "category": str,
-    "goodscategory": str,
-    "exampleproduct": str
-}
-
-
 @scenario("features/categories.feature",
           "User views products under a category")
 def test_categories():

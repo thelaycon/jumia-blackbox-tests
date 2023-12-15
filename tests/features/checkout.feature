@@ -4,8 +4,8 @@ Feature: Checkout Product
 
 	Scenario: Checkout product
 		Given that user visits Jumia website
-		And login into the site
-		When they add products to cart
+		When login into the site
+		And they add <product> to cart
 		Then they can checkout
 
 	
